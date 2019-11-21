@@ -1,88 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/iptime/hoonyhoony/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q1_lv1/Q1Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q1_lv1/question1_rfp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q2_lv2/Q2Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q2_lv2/question2_rfp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2/Q3Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2/question3_rfp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash_q1_lv1/Q1SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash_q2_lv2/Q2SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-study-programmers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-study-programmers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Main.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Tuyr8i56TlvOb8yahVe4WozMEj" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.iptime.hoonyhoony.Hash_q2_lv2" />
+      <recent name="org.iptime.hoonyhoony.Hash_q1_lv1" />
+      <recent name="org.iptime.hoonyhoony" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.iptime.hoonyhoony.Hash_q3_lv2" />
+      <recent name="org.iptime.hoonyhoony.Hash_q2_lv2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Hash_q3_lv2" />
+      <recent name="C:\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Hash_q2_lv2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Q2SolutionTest">
+    <configuration name="MainTest.Hash_q1_lv1_Test_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-study-programmers" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iptime.hoonyhoony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.MainTest" />
+      <option name="METHOD_NAME" value="Hash_q1_lv1_Test_3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-study-programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iptime.hoonyhoony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.MainTest" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-study-programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Hash_q2_lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2.Q2SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2SolutionTest.Hash_q1_lv1_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-study-programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Hash_q2_lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2.Q2SolutionTest" />
+      <option name="METHOD_NAME" value="Hash_q1_lv1_Test_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2SolutionTest.Hash_q2_lv2_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-study-programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Hash_q2_lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2.Q2SolutionTest" />
+      <option name="METHOD_NAME" value="Hash_q2_lv2_Test_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MainTest.Hash_q1_lv1_Test_3" />
+      <item itemvalue="JUnit.MainTest.mainTest" />
+      <item itemvalue="JUnit.Q2SolutionTest" />
+      <item itemvalue="JUnit.Q2SolutionTest.Hash_q1_lv1_Test_1" />
+      <item itemvalue="JUnit.Q2SolutionTest.Hash_q2_lv2_Test_1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Q2SolutionTest" />
+        <item itemvalue="JUnit.Q2SolutionTest.Hash_q2_lv2_Test_1" />
+        <item itemvalue="JUnit.Q2SolutionTest.Hash_q1_lv1_Test_1" />
+        <item itemvalue="JUnit.MainTest.mainTest" />
+        <item itemvalue="JUnit.MainTest.Hash_q1_lv1_Test_3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="" />
+      <created>1574324470737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574324470737</updated>
+      <workItem from="1574324476507" duration="5005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
