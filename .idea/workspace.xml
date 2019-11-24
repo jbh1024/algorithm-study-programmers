@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q1_lv1/Q1Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q1_lv1/question1_rfp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q2_lv2/Q2Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q2_lv2/question2_rfp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2/Q3Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2/question3_rfp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash_q1_lv1/Q1SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash_q2_lv2/Q2SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/Q1Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/question1_rfp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q2_lv2/Q2Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q2_lv2/question2_rfp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/Q1SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm-study-programmers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-study-programmers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q1_lv1/Q1Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q1_lv1/Q1Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q1_lv1/question1_rfp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q1_lv1/question1_rfp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q2_lv2/Q2Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q2_lv2/Q2Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q2_lv2/question2_rfp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q2_lv2/question2_rfp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2/Q3Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q3_lv2/Q3Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2/question3_rfp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q3_lv2/question3_rfp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash_q1_lv1/Q1SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash/Hash_q1_lv1/Q1SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash_q2_lv2/Q2SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash/Hash_q2_lv2/Q2SolutionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,25 +49,30 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash_q3_lv2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q2_lv2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.iptime.hoonyhoony.Sort.Sort_q1_lv1" />
       <recent name="org.iptime.hoonyhoony.Hash_q2_lv2" />
       <recent name="org.iptime.hoonyhoony.Hash_q1_lv1" />
       <recent name="org.iptime.hoonyhoony" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.iptime.hoonyhoony.Hash_q3_lv2" />
       <recent name="org.iptime.hoonyhoony.Hash_q2_lv2" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dev\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Sort\Sort_q2_lv2" />
+      <recent name="E:\Dev\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Sort\Sort_q1_lv1" />
+      <recent name="E:\Dev\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Sort" />
       <recent name="C:\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Hash_q3_lv2" />
       <recent name="C:\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Hash_q2_lv2" />
     </key>
@@ -81,34 +89,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Q2SolutionTest">
-    <configuration name="MainTest.Hash_q1_lv1_Test_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Q1SolutionTest.Sort_q1_lv1_Test_1">
+    <configuration name="Q1SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-study-programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.iptime.hoonyhoony.*" />
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Hash.Hash_q1_lv1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony" />
-      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.MainTest" />
-      <option name="METHOD_NAME" value="Hash_q1_lv1_Test_3" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Hash.Hash_q1_lv1" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Hash.Hash_q1_lv1.Q1SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1SolutionTest.Sort_q1_lv1_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-study-programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.iptime.hoonyhoony.*" />
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Sort.Sort_q1_lv1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony" />
-      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.MainTest" />
-      <option name="METHOD_NAME" value="mainTest" />
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Sort.Sort_q1_lv1" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Sort.Sort_q1_lv1.Q1SolutionTest" />
+      <option name="METHOD_NAME" value="Sort_q1_lv1_Test_1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,19 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainTest.Hash_q1_lv1_Test_3" />
-      <item itemvalue="JUnit.MainTest.mainTest" />
       <item itemvalue="JUnit.Q2SolutionTest" />
       <item itemvalue="JUnit.Q2SolutionTest.Hash_q1_lv1_Test_1" />
       <item itemvalue="JUnit.Q2SolutionTest.Hash_q2_lv2_Test_1" />
+      <item itemvalue="JUnit.Q1SolutionTest" />
+      <item itemvalue="JUnit.Q1SolutionTest.Sort_q1_lv1_Test_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Q1SolutionTest.Sort_q1_lv1_Test_1" />
+        <item itemvalue="JUnit.Q1SolutionTest" />
         <item itemvalue="JUnit.Q2SolutionTest" />
         <item itemvalue="JUnit.Q2SolutionTest.Hash_q2_lv2_Test_1" />
         <item itemvalue="JUnit.Q2SolutionTest.Hash_q1_lv1_Test_1" />
-        <item itemvalue="JUnit.MainTest.mainTest" />
-        <item itemvalue="JUnit.MainTest.Hash_q1_lv1_Test_3" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +196,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574324470737</updated>
       <workItem from="1574324476507" duration="5005000" />
+      <workItem from="1574403554493" duration="8703000" />
+      <workItem from="1574599734535" duration="60000" />
     </task>
     <servers />
   </component>
@@ -200,7 +209,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

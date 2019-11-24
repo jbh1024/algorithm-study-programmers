@@ -1,8 +1,9 @@
-package org.iptime.hoonyhoony.Hash_q2_lv2;
+package org.iptime.hoonyhoony.Hash.Hash_q2_lv2;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class Q2SolutionTest {
 

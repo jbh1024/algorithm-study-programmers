@@ -1,4 +1,4 @@
-package org.iptime.hoonyhoony.Hash_q2_lv2;
+package org.iptime.hoonyhoony.Hash.Hash_q2_lv2;
 
 public class Q2Solution {
     public boolean solution(String[] phone_book) {

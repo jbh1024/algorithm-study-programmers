@@ -1,8 +1,8 @@
-package org.iptime.hoonyhoony.Hash_q1_lv1;
+package org.iptime.hoonyhoony.Hash.Hash_q1_lv1;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Q1SolutionTest {
 

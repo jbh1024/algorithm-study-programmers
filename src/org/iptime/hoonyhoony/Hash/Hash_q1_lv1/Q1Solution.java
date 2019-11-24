@@ -1,4 +1,4 @@
-package org.iptime.hoonyhoony.Hash_q1_lv1;
+package org.iptime.hoonyhoony.Hash.Hash_q1_lv1;
 
 import java.util.HashMap;
 
