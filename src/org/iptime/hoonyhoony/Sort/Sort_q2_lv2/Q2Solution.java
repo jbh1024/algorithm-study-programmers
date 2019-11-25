@@ -1,41 +1,31 @@
 package org.iptime.hoonyhoony.Sort.Sort_q2_lv2;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Q2Solution {
-    //TODO: 수정해야함.. 오답..
+    // 답안 확인 후 수정.. Collection Sort Ramda부분 확인 해볼것..
     public String solution(int[] numbers) {
         String answer = "";
+
+        List<Integer> list = new ArrayList<>();
         for (int i = 0; i < numbers.length; i++) {
-            for (int j = i + 1; j < numbers.length; j++) {
-                if (compareNumbers(numbers[i], numbers[j])) {
-                    int temp = numbers[j];
-                    numbers[j] = numbers[i];
-                    numbers[i] = temp;
-                }
-            }
+            list.add(numbers[i]);
         }
-        for (int i : numbers) {
-            answer += i;
+        Collections.sort(list, (a, b) -> {
+            String as = String.valueOf(a), bs = String.valueOf(b);
+            return -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as));
+        });
+        StringBuilder sb = new StringBuilder();
+        for (Integer i : list) {
+            sb.append(i);
         }
-        return Integer.parseInt(answer) + "";
-
-    }
-
-    private boolean compareNumbers(int a, int b) {
-        String aNum = String.valueOf(a);
-        String bNum = String.valueOf(b);
-        int aSum = 0, bSum = 0;
-        if (aNum.length() == bNum.length()) {
-            return a < b;
+        answer = sb.toString();
+        if (answer.charAt(0) == '0') {
+            return "0";
         } else {
-            if (aNum.charAt(0) == bNum.charAt(0)) {
-                for (int i = 0; i < aNum.length(); i++)
-                    aSum += Character.getNumericValue(aNum.charAt(i));
-                for (int i = 0; i < bNum.length(); i++)
-                    bSum += Character.getNumericValue(bNum.charAt(i));
-                return aSum < bSum && aNum.length() > bNum.length();
-            } else {
-                return aNum.charAt(0) < bNum.charAt(0);//첫자리 비교
-            }
+            return answer;
         }
     }
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="해쉬 3번 문제 해결, 정렬 2번 문제 작업..&#10;기존에 작업하던 2번까지 작업 종료 후&#10;문제별로 branch 하며 작업">
-      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash/Hash_q3_lv2/Q3SolutionTest.java" afterDir="false" />
+    <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Sort/Sort_q2_lv2/Q2SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q3_lv2/Q3Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q3_lv2/Q3Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q2_lv2/Q2Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q2_lv2/Q2Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.iptime.hoonyhoony.Sort.Sort_q2_lv2" />
       <recent name="org.iptime.hoonyhoony.Hash_q3_lv2" />
       <recent name="org.iptime.hoonyhoony.Hash_q2_lv2" />
       <recent name="org.iptime.hoonyhoony.Hash_q1_lv1" />
@@ -75,19 +76,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Q3SolutionTest">
-    <configuration name="MainTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Q2SolutionTest (1)">
+    <configuration name="Q2SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-study-programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.iptime.hoonyhoony.*" />
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Sort.Sort_q2_lv2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony" />
-      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.MainTest" />
-      <option name="METHOD_NAME" value="mainTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Sort.Sort_q2_lv2" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Sort.Sort_q2_lv2.Q2SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,22 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2SolutionTest.Hash_q1_lv1_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-study-programmers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iptime.hoonyhoony.Hash_q2_lv2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2" />
-      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2.Q2SolutionTest" />
-      <option name="METHOD_NAME" value="Hash_q1_lv1_Test_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Q2SolutionTest.Hash_q2_lv2_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-study-programmers" />
       <extension name="coverage">
@@ -134,6 +118,22 @@
       <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2" />
       <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Hash_q2_lv2.Q2SolutionTest" />
       <option name="METHOD_NAME" value="Hash_q2_lv2_Test_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2SolutionTest.Sort_q1_lv1_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-study-programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iptime.hoonyhoony.Sort.Sort_q2_lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iptime.hoonyhoony.Sort.Sort_q2_lv2" />
+      <option name="MAIN_CLASS_NAME" value="org.iptime.hoonyhoony.Sort.Sort_q2_lv2.Q2SolutionTest" />
+      <option name="METHOD_NAME" value="Sort_q1_lv1_Test_1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainTest.mainTest" />
       <item itemvalue="JUnit.Q2SolutionTest" />
-      <item itemvalue="JUnit.Q2SolutionTest.Hash_q1_lv1_Test_1" />
       <item itemvalue="JUnit.Q2SolutionTest.Hash_q2_lv2_Test_1" />
       <item itemvalue="JUnit.Q3SolutionTest" />
+      <item itemvalue="JUnit.Q2SolutionTest.Sort_q1_lv1_Test_1" />
+      <item itemvalue="JUnit.Q2SolutionTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Q2SolutionTest (1)" />
+        <item itemvalue="JUnit.Q2SolutionTest.Sort_q1_lv1_Test_1" />
         <item itemvalue="JUnit.Q3SolutionTest" />
         <item itemvalue="JUnit.Q2SolutionTest" />
         <item itemvalue="JUnit.Q2SolutionTest.Hash_q2_lv2_Test_1" />
-        <item itemvalue="JUnit.Q2SolutionTest.Hash_q1_lv1_Test_1" />
-        <item itemvalue="JUnit.MainTest.mainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +183,14 @@
       <updated>1574324470737</updated>
       <workItem from="1574324476507" duration="5005000" />
     </task>
+    <task id="LOCAL-00001" summary="해쉬 3번 문제 해결, 정렬 2번 문제 작업..&#10;기존에 작업하던 2번까지 작업 종료 후&#10;문제별로 branch 하며 작업">
+      <created>1574646015888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574646015889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
