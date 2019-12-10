@@ -4,41 +4,34 @@ import java.util.*;
 
 public class Q4Solution {
     public int[] solution(String[] genres, int[] plays) {
-        HashMap<String, Integer> tempMap = new HashMap<String, Integer>();
+        HashMap<String, Integer> tempMap = new HashMap<>();
         for (int i = 0; i < genres.length; i++) {
             tempMap.put(genres[i], tempMap.getOrDefault(genres[i], 0) + plays[i]);
         }
-        List<HashMap.Entry<String, Integer>> orderdList = new ArrayList<HashMap.Entry<String, Integer>>(tempMap.entrySet());
-        Collections.sort(orderdList, new Comparator<HashMap.Entry<String, Integer>>() {
-            @Override
-            public int compare(HashMap.Entry<String, Integer> o1, HashMap.Entry<String, Integer> o2) {
-                int comparision = (o1.getValue() - o2.getValue()) * -1;
-                return comparision == 0 ? o1.getKey().compareTo(o2.getKey()) : comparision;
-            }
+        List<HashMap.Entry<String, Integer>> orderdList = new ArrayList<>(tempMap.entrySet());
+        orderdList.sort((o1, o2) -> {
+            int comparision = (o1.getValue() - o2.getValue()) * -1;
+            return comparision == 0 ? o1.getKey().compareTo(o2.getKey()) : comparision;
         });
 
-        List<Integer> result = new ArrayList<Integer>();
-        for (int i = 0; i < orderdList.size(); i++) {
+        List<Integer> result = new ArrayList<>();
+        for (Map.Entry<String, Integer> stringIntegerEntry : orderdList) {
 
-            List<HashMap.Entry<Integer, Integer>> genresList = new ArrayList<HashMap.Entry<Integer, Integer>>();
+            List<HashMap.Entry<Integer, Integer>> genresList = new ArrayList<>();
 
             for (int j = 0; j < genres.length; j++) {
-                if (genres[j].equals(orderdList.get(i).getKey())) {
-                    genresList.add(new AbstractMap.SimpleEntry(j, plays[j]));
+                if (genres[j].equals(stringIntegerEntry.getKey())) {
+                    genresList.add(new AbstractMap.SimpleEntry<>(j, plays[j]));
                 }
             }
 
-            Collections.sort(genresList, new Comparator<HashMap.Entry<Integer, Integer>>() {
-                @Override
-                public int compare(HashMap.Entry<Integer, Integer> o1, HashMap.Entry<Integer, Integer> o2) {
-                    int comparision = o2.getValue().compareTo(o1.getValue());
-                    return comparision == 0 ? o1.getKey().compareTo(o2.getKey()) : comparision;
-                }
+            genresList.sort((o1, o2) -> {
+                int comparision = o2.getValue().compareTo(o1.getValue());
+                return comparision == 0 ? o1.getKey().compareTo(o2.getKey()) : comparision;
             });
 
             int cnt = 0;
 
-            Iterator<Map.Entry<Integer, Integer>> keyiterator = genresList.iterator();
             for (Map.Entry<Integer, Integer> map : genresList) {
                 if (cnt >= 2) {
                     break;
@@ -50,7 +43,7 @@ public class Q4Solution {
         }
         int[] answer = new int[result.size()];
         for (int i = 0; i < result.size(); i++) {
-            answer[i] = result.get(i).intValue();
+            answer[i] = result.get(i);
         }
 
         return answer;

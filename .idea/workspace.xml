@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="Hash 4번문제 설명 및 풀이, 테스트케이스 추가">
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q4_lv3/Q4Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q4_lv3/question4_rfp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/Hash/Hash_q4_lv3/Q4SolutionTest.java" afterDir="false" />
+    <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="minor 수정&#10;for loop -&gt; for each 변경&#10;lamda 로 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q4_lv3/Q4Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Hash/Hash_q4_lv3/Q4Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,8 +196,16 @@
       <workItem from="1574403554493" duration="8703000" />
       <workItem from="1574599734535" duration="60000" />
       <workItem from="1574860338694" duration="211000" />
-      <workItem from="1575949777930" duration="5613000" />
+      <workItem from="1575949777930" duration="6247000" />
     </task>
+    <task id="LOCAL-00001" summary="Hash 4번문제 설명 및 풀이, 테스트케이스 추가">
+      <created>1575960552474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575960552474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +226,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hash 4번문제 설명 및 풀이, 테스트케이스 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hash 4번문제 설명 및 풀이, 테스트케이스 추가" />
+    <MESSAGE value="minor 수정" />
+    <MESSAGE value="minor 수정&#10;for loop -&gt; for each 변경&#10;lamda 로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor 수정&#10;for loop -&gt; for each 변경&#10;lamda 로 변경" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
