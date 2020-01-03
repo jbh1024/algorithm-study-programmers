@@ -2,6 +2,7 @@ package org.iptime.hoonyhoony.BruteForce.BruteForce_q1_lv1;
 
 public class Q1Solution {
     public int[] solution(int[] answers) {
+        //모의고사 문제.. 단순 반복 으로 해결.. 코드 줄일 수 있을텐데..
         int[] answer = {};
         int[] aAnswer = {1, 2, 3, 4, 5};
         int[] bAnswer = {2, 1, 2, 3, 2, 4, 2, 5};
