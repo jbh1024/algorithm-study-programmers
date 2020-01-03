@@ -11,19 +11,17 @@ class Q2SolutionTest {
         Q2Solution solution = new Q2Solution();
         assertEquals(3, solution.solution(numbers));
     }
-
     @Test
     void BruteForce_q2_lv2_Test_2() {
         String numbers = "011";
         Q2Solution solution = new Q2Solution();
         assertEquals(2, solution.solution(numbers));
     }
-
     @Test
     void BruteForce_q2_lv2_Test_3() {
         String numbers = "997";
         Q2Solution solution = new Q2Solution();
-        assertEquals(2, solution.solution(numbers));
+        assertEquals(5, solution.solution(numbers));
     }
 
 }

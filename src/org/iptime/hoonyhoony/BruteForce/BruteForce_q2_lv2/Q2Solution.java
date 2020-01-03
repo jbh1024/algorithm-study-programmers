@@ -1,73 +1,60 @@
 package org.iptime.hoonyhoony.BruteForce.BruteForce_q2_lv2;
 
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
 
 public class Q2Solution {
-    static void addSet(int[] arr, int r, Set<Integer> set) {
-
-        StringBuilder num = new StringBuilder();
-        for (int i = 0; i < r; i++)
-            num.append(arr[i]);
-        set.add(Integer.parseInt(String.valueOf(num)));
-//        return String.valueOf(num);
-    }
-
     public int solution(String numbers) {
-        //순열 알고리즘을 이용하여 가능한 경우의수를 만들고 그 수들을 소수인지 체크하는 방법으로 해결
         int answer = 0;
-//        Set<Integer> set = new HashSet<>();
-        Set<Integer> set = new HashSet<>();
-        int[] ints = new int[numbers.length()];
-        for (int i = 0; i < numbers.length(); i++) {
-            set.add(numbers.charAt(i) - '0');
-            ints[i] = numbers.charAt(i) - '0';
-        }
+        //순열 메소드가 잘못되어 전체 수정...
+        String[] num_arr = numbers.split("");
+        HashSet<Integer> checked = new HashSet<>();
 
-        for (int j = 1; j <= numbers.length(); j++) {
-            permutation(ints, 0, j, j, set);
+        for (int i = 0; i < num_arr.length; i++) {
+            answer += permutation(num_arr, checked, "", 0, i + 1);
         }
-        System.out.println(set);
-        Iterator<Integer> itr = set.iterator();
-        while (itr.hasNext()) {
-            int k = itr.next();
-            if (checkPrimeNum(k)) {
-                answer++;
-            }
-        }
-
+        System.out.println("correct" + checked);
         return answer;
     }
 
-    private void permutation(int[] arr, int depth, int n, int r, Set<Integer> set) {
-        if (depth == r) {
-            addSet(arr, r, set);
-            return;
+    /* 숫자 조합을 생성 후 존재하는경우 0 존재하지않는 경우 1 리턴 */
+    private int permutation(String[] arr, HashSet<Integer> checked, String numString, int visited, int toPick) {
+
+        if (toPick == 0) {
+            int num = Integer.parseInt(numString);
+
+            //중복검사
+            if (checked.contains(num)) return 0;
+            checked.add(num);
+            //소수 판별
+            if (checkPrimeNum(num)) return 1;
+            return 0;
         }
 
-        for (int i = depth; i < n; i++) {
-            swap(arr, depth, i);
-            permutation(arr, depth + 1, n, r, set);
-            swap(arr, depth, i);
+        int ret = 0;
+
+        //자기자신을 중복선택하지 않는 순열 생성 (visitied 사용여부에 따라)
+        for (int i = 0; i < arr.length; i++) {
+            if ((visited & (1 << i)) > 0)
+                continue;
+            ret += permutation(arr, checked, numString + arr[i], visited + (1 << i), toPick - 1);
         }
+
+        return ret;
     }
 
-    private void swap(int[] arr, int depth, int i) {
-        int temp = arr[depth];
-        arr[depth] = arr[i];
-        arr[i] = temp;
-    }
-
+    /* 소수 체크 */
     private boolean checkPrimeNum(int num) {
-        if (num < 2) {
+
+        if (num <= 1) {
             return false;
         } else if (num == 2) {
             return true;
+        } else if (num % 2 == 0) {
+            //2를 제외한 모든 짝수는 소수가 아님
+            return false;
         } else {
-            //3부터 자신보다 작은 수가 나올때까지 나누어서 나누어지면 소수가 아님.
-            for (int i = 3; i < num; i++) {
-
+            int sqrtn = (int) Math.sqrt(num);
+            for (int i = 3; i < sqrtn; i += 2) {
                 if (num % i == 0) {
                     return false;
                 }
@@ -75,5 +62,4 @@ public class Q2Solution {
         }
         return true;
     }
-
 }
