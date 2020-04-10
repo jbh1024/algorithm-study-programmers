@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/Q1Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/Q1Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,12 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="GhostReviewsManagerService">
+    <projectManager projectId="algorithm-study-programmers">
+      <reviews />
+      <uncommitted-review-parts />
+    </projectManager>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -51,9 +56,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/org/iptime/hoonyhoony/BruteForce/BruteForce_q2_lv2/Q2Solution.java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/org/iptime/hoonyhoony/BruteForce/BruteForce_q2_lv2/Q2Solution.java" />
   </component>
   <component name="RecentsManager">
@@ -186,7 +198,7 @@
       <updated>1574324470737</updated>
       <workItem from="1574324476507" duration="5005000" />
       <workItem from="1578056567114" duration="2199000" />
-      <workItem from="1586485265511" duration="46000" />
+      <workItem from="1586485265511" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="해쉬 3번 문제 해결, 정렬 2번 문제 작업..&#10;기존에 작업하던 2번까지 작업 종료 후&#10;문제별로 branch 하며 작업">
       <created>1574646015888</created>
@@ -202,11 +214,32 @@
       <option name="project" value="LOCAL" />
       <updated>1578056671455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="완전탐색 2번문제. 테스트케이스는 통과하지만 제출하면 50점.. &#10;로직 점검 필요">
+      <created>1586485330765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586485330765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpsourceProjectSettings">
+    <option name="chosenProjectId" value="algorithm-study-programmers" />
+    <option name="projectId2FileIdPrefix">
+      <map>
+        <entry key="algorithm-study-programmers" value="/" />
+      </map>
+    </option>
+    <option name="projectId2RootUrl">
+      <map>
+        <entry key="algorithm-study-programmers" value="file://$PROJECT_DIR$" />
+      </map>
+    </option>
+    <option name="upsourceUrl" value="http://hoonyhoony.iptime.org:8090/" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -229,5 +262,23 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1381" y="-47" key="CommitChangelistDialog2" timestamp="1586485330165">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1381" y="-47" key="CommitChangelistDialog2/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@-1920.-180.1920.1080" timestamp="1586485330165" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1586485951380">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@0.0.1440.900" timestamp="1586485951380" />
+    <state x="-1360" y="100" key="Vcs.Push.Dialog.v2" timestamp="1586485335577">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="100" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@-1920.-180.1920.1080" timestamp="1586485335577" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586486057264">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@0.0.1440.900" timestamp="1586486057264" />
   </component>
 </project>
