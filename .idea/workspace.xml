@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9ae86f04-08ae-4943-8194-d7310b008045" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/BruteForce/BruteForce_q2_lv2/Q2Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/BruteForce/BruteForce_q2_lv2/Q2Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/BruteForce/BruteForce_q2_lv2/Q2SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/org/iptime/hoonyhoony/BruteForce/BruteForce_q2_lv2/Q2SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/Q1Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/iptime/hoonyhoony/Sort/Sort_q1_lv1/Q1Solution.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,11 +33,17 @@
   </component>
   <component name="ProjectId" id="1Tuyr8i56TlvOb8yahVe4WozMEj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -75,18 +79,6 @@
       <recent name="C:\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Hash_q3_lv2" />
       <recent name="C:\workspace-intellij\algorithm-study-programmers\src\org\iptime\hoonyhoony\Hash_q2_lv2" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.Q2SolutionTest (2)">
     <configuration name="Q2SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -194,6 +186,7 @@
       <updated>1574324470737</updated>
       <workItem from="1574324476507" duration="5005000" />
       <workItem from="1578056567114" duration="2199000" />
+      <workItem from="1586485265511" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="해쉬 3번 문제 해결, 정렬 2번 문제 작업..&#10;기존에 작업하던 2번까지 작업 종료 후&#10;문제별로 branch 하며 작업">
       <created>1574646015888</created>

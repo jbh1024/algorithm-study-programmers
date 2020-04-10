@@ -9,7 +9,6 @@ public class Q1Solution {
             int[] list = new int[(commands[i][1] - commands[i][0]) + 1];
             for (int j = commands[i][0] - 1; j < commands[i][1]; j++) {
                 list[j - (commands[i][0] - 1)] = array[j];
-                //System.out.println(j+"!!" +(commands[i][0]-1)+ " !!::test::"+array[j]);
             }
             int temp;
             for (int k = 0; k < commands[i][2]; k++) {
