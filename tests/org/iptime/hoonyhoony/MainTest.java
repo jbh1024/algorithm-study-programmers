@@ -1,11 +1,11 @@
 package org.iptime.hoonyhoony;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 class MainTest {
 
     @Test
-    void mainTest(){
+    public void mainTest(){
         System.out.println("test");
     }
 

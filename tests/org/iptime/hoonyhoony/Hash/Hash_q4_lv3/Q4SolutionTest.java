@@ -1,12 +1,12 @@
 package org.iptime.hoonyhoony.Hash.Hash_q4_lv3;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.Assert.assertArrayEquals;
 
-class Q4SolutionTest {
+public class Q4SolutionTest {
     @Test
-    void Hash_q2_lv2_Test_1() {
+    public void Hash_q2_lv2_Test_1() {
         String[] genres = {"classic", "pop", "classic", "classic", "pop"};
         int[] plays = {500, 600, 150, 800, 2500};
         Q4Solution solution = new Q4Solution();
